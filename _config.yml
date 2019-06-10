@@ -1,0 +1,25 @@
+title: Parth Krishna
+subtitle: thenerdsuperuser
+description: Website and portfolio of Chris Bobbe, front-end web developer.
+
+author: Parth Krishna
+email: thenerdsuperuser@gmail.com
+avatar: assets/images/avatar.jpg
+
+baseurl: ""
+url: "www.thenerdsuperuser.tk"
+
+# Social settings
+github_url: https://github.com/thenerdsuperuser
+linkedin_url: https://www.linkedin.com/in/parthkrishna1611
+twitter_url: https://twitter.com/vimoveremacs
+instagram_url: https://instagram.com/thenerdsuperuser
+
+# Build settings
+remote_theme: chrisbobbe/jekyll-theme-prologue
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Necessary for Prologue theme:
+collections: [sections]
