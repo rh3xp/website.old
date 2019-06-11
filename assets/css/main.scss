@@ -23,6 +23,7 @@ body
 {
     grid-column: 3 / 7;
     margin: 0;
+    margin-top: .2rem;
     margin-bottom: .2em;
     padding: .1em 0;
 }
@@ -54,9 +55,14 @@ p
     margin: 0 auto;
 }
 
-.logo
+.logo 
 {
-    float:left;
+    img
+    {
+        float: left;
+        height: 120%;
+        width: 120%;
+    }
 }
 
 img {

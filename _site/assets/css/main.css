@@ -101,6 +101,7 @@ body {
 .title-area {
   grid-column: 3 / 7;
   margin: 0;
+  margin-top: .2rem;
   margin-bottom: .2em;
   padding: .1em 0; }
 
@@ -123,8 +124,10 @@ p {
   widht: 600px;
   margin: 0 auto; }
 
-.logo {
-  float: left; }
+.logo img {
+  float: left;
+  height: 120%;
+  width: 120%; }
 
 img {
   display: block;

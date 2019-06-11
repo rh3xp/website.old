@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Home Page
 layout: default
 ---
 
@@ -36,7 +36,6 @@ not that bad also huh
 > * why my posts dont show up.
 > * some new way to add posts.
 > * add terminal like stuff.
->   - whether mathjax worked.
 
 * * *
 
