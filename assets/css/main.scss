@@ -71,3 +71,18 @@ img {
   margin-right: auto;
   width: 50%;
 }
+
+
+@media screen and (max-width: 640px) {
+   #header #main-navigation.main-nav #email {
+     display: none !important;
+   }
+   #header, nav#main-navigation.main-nav {
+     display: block !important;
+   }
+   #main-navigation.main-nav .nav-wrapper,
+   #banner-area-wrapper {
+     display: none !important;
+   }
+ }
+
