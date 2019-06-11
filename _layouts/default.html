@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href= {{ "/assets/css/main.css" | relative_url }}>
+    <link rel="stylesheet" href={{ "assets/css/main.css" | relative_url }} >
   </head>
   <body>
+
+<!--- Logo -->
   <div class="title-area">
     <a href={{ site.host }} >
-        <img src= {{ "/assets/images/logo.png" | relative_url }} class="logo">
+        <img src= {{ "assets/images/logo.png" | relative_url }} class="logo">
     </a>
   </div>
-     {{ content }}
+
+<!--- Content -->
+    <div class="container">
+        <h1> {{ page.title }} </h1>
+        {{ content }}
+    </div>
+
   </body>
 </html>

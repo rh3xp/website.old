@@ -1,6 +1,11 @@
 name: My Website
-host: https://www.thenerdsuperuser.tk
 
 
 markdown: kramdown
 highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
