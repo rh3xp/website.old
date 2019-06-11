@@ -3,7 +3,7 @@ title: Index
 layout: default
 ---
 
-## start from the scratch
+#### start from the scratch
 
 it is going to be painful hm
 
@@ -19,14 +19,11 @@ it is going to be painful hm
 </html>
 ```
 
-{%highlight python%}
-  print("hello, world")
-{%endhighlight%}
-
-[link to code](2019/06/19/code.html)
+[link to code]({{ "/hackerearth/" | relative_url }})
 
 
-![link to code]({{ "assets/images/logo.png" | relative_url }})
-
+``` python
+print("hello, world")
+```
 
 ![this is me]({{ "assets/images/formals.jpeg" | relative_url }})
