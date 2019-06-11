@@ -1,0 +1,32 @@
+---
+# for jekyll
+---
+
+
+@import "monokai"; 
+
+
+body
+{
+	background: #333;
+    color: #fff;
+    margin: 0;
+    display: grid;
+    grid-template-columns:
+        1fr [container-start]
+            repeat(6, minmax(50px, 150px))
+        [container-end] 1fr;
+    grid-gap: 1em 2em;
+}
+
+p
+{
+    grid-column: 4 / 7;
+    margin: 0;
+}
+
+.container
+{
+    widht: 600px;
+    margin: 0 auto;
+}
