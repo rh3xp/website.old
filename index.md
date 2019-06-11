@@ -9,5 +9,8 @@ it is going to be painful hm
 
 
 ```
-print("hello, bitch")
+print("hello, world")
 ```
+
+
+[link to code](2019/06/19/code.html)
