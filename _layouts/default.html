@@ -4,6 +4,11 @@
     <link rel="stylesheet" href= {{ "/assets/css/main.css" | relative_url }}>
   </head>
   <body>
+  <div class="title-area">
+    <a href={{ site.host }} >
+        <img src= {{ "/assets/images/logo.png" | relative_url }} class="logo">
+    </a>
+  </div>
      {{ content }}
   </body>
 </html>
