@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html>
+
   <head>
-    <link rel="stylesheet" href=/assets/css/main.css >
-  </head>
+
+  <link rel="stylesheet" href=/assets/css/main.css >
+
+  <!-- Mathjax Support -->
+  <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+
+
+</head>
+
+
   <body>
 
-<!--- Logo -->
+  <!--- Logo -->
   <div class="logo">
     <a href= >
-        <img src= /assets/images/logo.png>
+      <img src= /assets/images/logo.png class="logo">
     </a>
   </div>
 
 
-    <div class="title-area">
-        <h1> Index </h1>
-    </div>
+  <div class="title-area">
+      <h1> Index </h1>
+  </div>
 
-<!--- Content -->
-    <div class="post-area">
-        <h4 id="start-from-the-scratch">start from the scratch</h4>
+  <!--- Content -->
+  <div class="post-area">
+      <h2 id="start-from-the-scratch">start from the scratch</h2>
 
 <p>it is going to be painful hm</p>
 
@@ -33,14 +44,51 @@
 <span class="nt">&lt;/html&gt;</span>
 </code></pre></div></div>
 
-<p><a href="/hackerearth/">link to code</a></p>
+<p><a href="/hackerearth">link to code</a></p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello, world"</span><span class="p">)</span>
 </code></pre></div></div>
 
 <p><img src="/assets/images/formals.jpeg" alt="this is me" /></p>
 
-    </div>
+<hr />
+
+<p>not that bad also huh</p>
+
+<blockquote>
+  <h3 id="need-to-figure-out-a-few-things">need to figure out a few things.</h3>
+
+  <ul>
+    <li>why my posts dont show up.</li>
+    <li>some new way to add posts.</li>
+    <li>add terminal like stuff.
+      <ul>
+        <li>whether mathjax worked.</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<hr />
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*} %]]></script>
+
+
+  </div>
 
   </body>
 </html>

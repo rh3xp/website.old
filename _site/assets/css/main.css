@@ -123,6 +123,9 @@ p {
   widht: 600px;
   margin: 0 auto; }
 
+.logo {
+  float: left; }
+
 img {
   display: block;
   margin-left: auto;
