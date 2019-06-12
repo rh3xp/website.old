@@ -1,4 +1,4 @@
 ---
 title: my solutions
-layout: home
+layout: hackerearth
 ---
