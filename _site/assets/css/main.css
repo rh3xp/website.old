@@ -107,10 +107,11 @@ nav {
   text-align: justify;
   padding: .1em 0; }
 
-#MathJax-Element-1-Frame {
-  width: 75%;
-  font-size: xx-small;
-  padding-right: .7em; }
+.MJXc-display {
+  width: 50%; }
+
+.MathJax_CHTML {
+  font-size: x-small; }
 
 .highlight {
   margin: 0;
