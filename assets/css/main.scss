@@ -28,10 +28,27 @@ body
     padding: .1em 0;
 }
 
+span
+{
+    .date-created
+    {
+        grid-column: 5 / 6;
+    }
+}
 p
 {
     grid-column: 3 / 6;
     padding-left: 2em 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
 }
 
 .post-area, h1, h2
