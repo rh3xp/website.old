@@ -102,12 +102,14 @@ nav {
 
 .post-area, h1, h2 {
   margin: 0;
+  font-size: medium;
   margin-bottom: .2em;
   text-align: justify;
   padding: .1em 0; }
 
 #MathJax-Element-1-Frame {
-  width: 80%;
+  width: 75%;
+  font-size: small;
   padding-right: .7em; }
 
 .highlight {
