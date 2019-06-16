@@ -94,22 +94,24 @@ body {
   background: #272822;
   color: #fff;
   margin: 0;
-  display: grid;
-  grid-template-columns: 1fr [container-start] repeat(5, minmax(50px, 150px)) [container-end] 1fr;
-  grid-gap: 1em 2em; }
+  padding: .5em; }
 
-.title-area {
-  grid-column: 3 / 7;
+.post-area, h1, h2 {
   margin: 0;
-  margin-top: .2rem;
   margin-bottom: .2em;
+  margin-top: 2em;
   padding: .1em 0; }
 
-span .date-created {
-  grid-column: 5 / 6; }
+.mjx-chtml {
+  width: 80%;
+  padding-left: 1.5em; }
+
+.highlight {
+  margin: 0;
+  padding: .1em 0;
+  padding-left: 3em; }
 
 p {
-  grid-column: 3 / 6;
   padding-left: 2em 0; }
 
 a {
@@ -118,36 +120,13 @@ a {
 ul {
   list-style: none; }
 
-.post-area, h1, h2 {
-  grid-column: 2 / 7;
-  margin: 0;
-  margin-bottom: .2em;
-  padding: .1em 0; }
-
-.highlight {
-  margin: 0;
-  padding: .1em 0;
-  padding-left: 3em; }
-
-.container {
-  widht: 600px;
-  margin: 0 auto; }
-
-.logo img {
-  float: left;
-  height: 120%;
-  width: 120%; }
-
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; }
+  width: 50%;
+  max-width: 100%; }
 
-.mjx-chtml {
-  width: 80%;
-  padding-left: 1.5em; }
-
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 200px) {
   .logo img {
     padding: 10px 0px; } }

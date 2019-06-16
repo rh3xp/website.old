@@ -1,0 +1,30 @@
+{% include head.html %}
+
+
+<!---
+<img style="display: inline;" src={{ "assets/images/logo.png" | relative_url }} alt="logo" />
+<h1 style="display: inline;">{{ page.title }}</h1>
+-->
+<nav style="background: #272822;">
+  <!-- Brand/logo -->
+    <a style="text-align: center; color: #fff;" class="navbar-brand" href={{ site.baseurl }}>
+        <img style="display: inline;" src= {{ "assets/images/logo.png" | relative_url }} >
+    <h1 style="display: inline; align: center;"> {{ page.title }} </h1>
+    </a>
+</nav>
+<!---
+<div class="title-area">
+    <a href={{ site.baseurl }} >
+        <img src= {{ "assets/images/logo.png" | relative_url }} class="logo">
+    </a>
+    <h1 class="title"> {{ page.title }} </h1>
+</div>
+-->
+<!---
+  <div class="title-area">
+      <h1 class="title"> {{ page.title }} </h1>
+      <a href={{ site.baseurl }} >
+          <img src= {{ "assets/images/logo.png" | relative_url }} class="logo">
+      </a>
+  </div>
+-->

@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-
-  <!--- Logo -->
-  <div class="logo">
-    <a href={{ site.baseurl }} >
-      <img src= {{ "assets/images/logo.png" | relative_url }} class="logo">
-    </a>
-  </div>
-
-
-  <div class="title-area">
-    <h1 class="title"> {{ page.title }} </h1>
-  </div>
+{% include header.html %}
 
   <!--- Content -->
   <div class="post-area">
       {{ content }}
   </div>
 
-  </body>
-</html>
+{% include footer.html %}
