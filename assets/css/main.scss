@@ -39,6 +39,7 @@ nav
 .MathJax_CHTML
 {
     font-size: x-small;
+    max-width: 500px;
 }
 
 
@@ -78,11 +79,3 @@ img {
   max-width: 100%;
 }
 
-
-@media only screen and (max-width: 200px)
-{
-    .logo img
-    {
-        padding: 10px 0px;
-    }
-}
