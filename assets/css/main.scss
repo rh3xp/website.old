@@ -13,20 +13,26 @@ body
     padding: .5em;
 }
 
+nav
+{
+	background: #272822;
+    padding-right: 1.5em;
+}
+
 .post-area, h1, h2
 {
     margin: 0;
     margin-bottom: .2em;
-    margin-top: 2em;
+    text-align: justify;
     padding: .1em 0;
 }
 
 
 // MathJax
-.mjx-chtml
+#MathJax-Element-1-Frame
 {
     width: 80%;
-    padding-left: 1.5em;
+    padding-right: .5em;
 }
 
 
@@ -43,6 +49,7 @@ body
 p
 {
     padding-left: 2em 0;
+    text-align: justify;
 }
 
 a
@@ -52,6 +59,7 @@ a
 
 ul
 {
+    text-align: justify;
     list-style: none;
 }
 
@@ -60,7 +68,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
   max-width: 100%;
 }
 
