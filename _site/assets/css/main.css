@@ -108,7 +108,7 @@ nav {
 
 #MathJax-Element-1-Frame {
   width: 80%;
-  padding-right: .5em; }
+  padding-right: .7em; }
 
 .highlight {
   margin: 0;
@@ -130,7 +130,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 50%;
   max-width: 100%; }
 
 @media only screen and (max-width: 200px) {
