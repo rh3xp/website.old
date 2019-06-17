@@ -112,7 +112,7 @@ nav {
 
 .MathJax_CHTML {
   font-size: x-small;
-  max-width: 500px; }
+  max-width: 300px; }
 
 .highlight {
   margin: 0;
@@ -136,3 +136,13 @@ img {
   margin-right: auto;
   width: 50%;
   max-width: 100%; }
+
+@media (max-width: 768px) {
+  .wide {
+    display: none; }
+
+  .mobilefont {
+    font-size: 0.8em; } }
+@media (min-width: 768px) {
+  .tight {
+    display: none; } }
