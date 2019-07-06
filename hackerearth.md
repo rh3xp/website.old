@@ -1,4 +1,4 @@
 ---
-title: my solutions
+title: my solutions on hackerearth
 layout: hackerearth
 ---

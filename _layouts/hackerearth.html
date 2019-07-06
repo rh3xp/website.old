@@ -2,15 +2,23 @@
 layout: default
 ---
 
-<!--- Content -->
+    <body>
 
-  <ul class="myposts">
-    {% for post in site.posts %}
-      {% if post.hackerearth %}
-        <li>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span class='date-created'>{{ post.date | date_to_string }}</span>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+
+		<main>
+            <div> 
+            <!--make css for myposts-->
+              <ul class="myposts">
+                  {% for post in site.posts %}
+                    {% if post.hackerearth %}
+                      <li>
+                          <a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
+                          <!--<span class='date-created'>{{ post.date | date_to_string }}</span>-->
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+            </div>
+        </main>
+	</body>
+

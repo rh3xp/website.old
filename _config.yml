@@ -1,15 +1,4 @@
-title: My website
-subtitle: "blah blah blep"
-name: Parth Krishna
-email: thenerdsuperuser@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+name: My Jekyll Website
+url: 
+baseurl: 
 
-markdown: kramdown
-highlighter: rouge
-
-# Markdown Processors
-kramdown:
-  input: GFM
-  auto_ids: true
-  syntax_highlighter: rouge

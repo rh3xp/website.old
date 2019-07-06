@@ -1,11 +1,23 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1, min-width=500"/>-->
 
+        <!-- Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">-->
 
-<nav>
-    <a class="navbar-brand" href={{ site.baseurl }}>
-        <img style="display: inline; min-width: 75%; max-width: 100%;" width="70%" height="55%" src= {{ "assets/images/logo.png" | relative_url }} >
+        <!-- Icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
-    </a>
-    <h1 style="display: inline; color: #fff; padding-left: .5%; text-align: right;"> {{ page.title }} </h1>
-</nav>
-
+        <!--- SASS-->
+		<link rel="stylesheet" href={{ "assets/css/style.css" | relative_url }} >
+        <link rel="icon" type="image/png" href={{ "assets/images/favicon.png" | relative_url }} sizes="16x16">
+        <title>Parth Krishna</title>
+	</head>
+    
+    <body>
+        {% include navbar.html %}

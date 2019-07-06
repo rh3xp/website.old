@@ -1,102 +1,90 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1, min-width=500"/>-->
 
-    <!--Responsive-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">-->
+
+        <!-- Icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+        <!--- SASS-->
+		<link rel="stylesheet" href=/assets/css/style.css >
+        <link rel="icon" type="image/png" href=/assets/images/favicon.png sizes="16x16">
+        <title>Parth Krishna</title>
+	</head>
     
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-
-    <link rel="stylesheet" href=/assets/css/main.css >
-
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-              "HTML-CSS": { linebreaks: { automatic: true } },
-              SVG: { linebreaks: { automatic: true } }
-              });
-    </script>
-
-    <!-- Mathjax Support -->
-    <script type="text/javascript" async
-      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-</head>
+    <body>
+        <header>
+    <div class="logo-container">
+        <img class = "logo" src=/assets/images/logo.png alt="logo" />
+        <h4 class="title">thenerdsuperuser</h4>
+    </div>
+    
+    <!--<nav>-->
+        <!--<ul class="nav-links">-->
+            <!--<li><a class="nav-link" href="#">Blog</a></li>-->
+            <!--<li><a class="nav-link" href="#">Products</a></li>-->
+            <!--<li><a class="nav-link" href="#">Contact</a></li>-->
+        <!--</ul>-->
+    <!--</nav>-->
+</header>
 
 
 
-<nav>
-    <a class="navbar-brand" href=>
-        <img style="display: inline; min-width: 75%; max-width: 100%;" width="70%" height="55%" src= /assets/images/logo.png >
 
+		<main>
+			<section class="presentation">
+				<div class="introduction">
+					<div class="intro-text">
+						<h1>My page</h1>
+						<p>
+							<p>Content is written in <a href="https://learnxinyminutes.com/docs/markdown/">Markdown</a>. Plain text format allows you to focus on your <strong>content</strong>.</p>
+
+<!--
+You can use HTML elements in Markdown, such as the comment element, and they won't be affected by a markdown parser. However, if you create an HTML element in your markdown file, you cannot use markdown syntax within that element's contents.
+-->
+
+						</p>
+                        
+                    <p class="social-media">
+    <a  class="social" href="https://github.com/thenerdsuperuser/" target="_blank">
+        <i class="fab fa-github fa-lg" title="Check my repos!"></i>
+    </a>                            
+    <a class="social" href="https://twitter.com/vimoveremacs/" target="_blank">
+        <i class="fab fa-twitter fa-lg" title="Check out my tweets!"></i>
     </a>
-    <h1 style="display: inline; color: #fff; padding-left: .5%; text-align: right;"> Home Page </h1>
-</nav>
+    <a class="social" href="https://keybase.io/thenerdsuperuser/" target="_blank">
+        <i class="fab fa-keybase fa-lg" title="Wanna text securely?"></i>
+    </a>
+    <a class="social" href="mailto:thenerdsuperuser@gmail.com?Subject=Hello%20World" target="_top">
+        <i class="far fa-envelope fa-lg" title="moshi moshi"></i>
+    </a>
+    <!--<a href="#" target="_blank">-->
+    <a class="social" href="#">
+        <i class="fas fa-blog fa-lg" title="more like logs"></i>
+    </a>
+    <a class="social" href="#">
+        <i class="fas fa-file fa-lg" title="hire me"></i>
+    </a>
+</p>
 
+                    
 
+					</div>
+				</div>
+                <div class="cover">
+				    <img src=/assets/images/profile.png alt="atmatrisha" />
+				</div>
+			</section>
+		</main>
+	</body>
 
-  <!--- Content -->
-  <div class="post-area">
-      <h2 id="start-from-the-scratch">start from the scratch</h2>
-
-<p>it is going to be painful hm</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;html&gt;</span>
-  <span class="nt">&lt;head&gt;</span>
-	<span class="nt">&lt;title&gt;</span>
-	<span class="nt">&lt;/title&gt;</span>
-  <span class="nt">&lt;/head&gt;</span>
-  <span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</code></pre></div></div>
-
-<p><a href="/hackerearth">link to code</a></p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="s">"hello, world"</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p><img src="/assets/images/formals.jpeg" alt="this is me" /></p>
-
-<hr />
-
-<p>not that bad also huh</p>
-
-<blockquote>
-  <h3 id="need-to-figure-out-a-few-things">need to figure out a few things.</h3>
-
-  <ul>
-    <li>why my posts dont show up.</li>
-    <li>some new way to add posts.</li>
-    <li>add terminal like stuff.</li>
-  </ul>
-</blockquote>
-
-<hr />
-
-<script type="math/tex; mode=display">% <![CDATA[
-\begin{align*}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
-  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
-      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
-      \vdots & \ddots & \vdots \\
-      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
-    \end{array} \right)
-  \left( \begin{array}{c}
-      y_1 \\
-      \vdots \\
-      y_n
-    \end{array} \right)
-\end{align*} %]]></script>
-
-
-  </div>
-
-  </body>
+	</body>
 </html>
 
