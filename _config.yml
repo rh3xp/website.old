@@ -1,4 +1,17 @@
-name: My Jekyll Website
+name: My Jekyll Theme
 url: 
 baseurl: 
 
+
+name: Parth Krishna
+email: thenerdsuperuser@gmail.com
+
+
+markdown: kramdown
+highlighter: rouge
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
