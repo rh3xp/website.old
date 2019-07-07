@@ -1,12 +1,18 @@
 {% include header.html %}
 
-    <h4> {{ page.date | date_to_string }} </h4>
-    <h1> {{ page.title }} </h1>
-        
+    <div class="center">
 
-    <section>
-        <div>
+        <section class="heading">
+            <div class=page-title">
+                <h1> {{ page.title }} </h1>
+            </div>
+            <div class="date">
+                <h4> {{ page.date | date_to_string }} </h4>
+            </div>
+        </section>
+
+        <p>
             {{ content }}
-        </div>
-    </section>
+        </p>
 
+    </div>

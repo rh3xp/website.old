@@ -3,17 +3,22 @@
 
 @import "monokai";
 
-$black: #272822;
-$white: #fff;
+$back: #272822;
+$text: #fff;
 $mainFont: 'Poppins', sans-serif;
 $titleFont: 'Titillium Web', sans-serif;
 
 
+/*
+*
+CSS for default.html
+*
+*/
 * {
 	margin: 0px;
     padding: 0px;
-    background: $black;
-    color: $white;
+    background: $back;
+    color: $text;
 	box-sizing: border-box;
 }
 
@@ -22,6 +27,14 @@ body
     //min-width:330px;
 	font-family: $mainFont;
 }
+
+
+/*
+*
+CSS for logo, navbar.html
+*
+*/
+
 
 header
 {
@@ -57,6 +70,9 @@ header
     }
 }
     
+/*
+
+//navbar is disabled for now
 
 nav
 {
@@ -71,11 +87,19 @@ nav
         .nav-link
         {
             //color: #5f5f79;
-            font-size: 18px;
+            //font-size: 18px;
             text-decoration: none;
         }
     }
 }
+*/
+
+
+/*
+*
+CSS for home.html
+*
+*/
 
 
 .presentation
@@ -103,6 +127,18 @@ nav
                 margin-top: 5px;
                 font-size: 22px;
             }
+
+            .social-media
+            {
+                //margin-top: 8px;
+                
+                .fab, .social, .fas, .far
+                {
+                    margin-right: 20px;
+                    flex: 1;
+                    text-decoration: none;
+                }
+            }
         }
     }
 
@@ -116,22 +152,64 @@ nav
     }
 }
 
-.social-media
+
+/*
+*
+CSS for post.html 
+*
+*/
+
+
+.posts
 {
-    //margin-top: 8px;
-    
-    .fab, .social, .fas, .far
+    .post-link
     {
-        margin-right: 20px;
-        flex: 1;
         text-decoration: none;
+        padding: 5px 0px 3px 20px; 
+    }
+    
+    .blog-title
+    {
+        padding: 35px 0px 20px 20px; 
+        
     }
 }
 
-//.nav-link-toggle
-//{
-    //display: none;
-//}
+
+/*
+*
+CSS for post.html 
+*
+*/
+
+
+.center
+{
+    margin: auto;
+    width: 60%;
+}
+
+.heading
+{
+    display: flex;
+
+    .page-title
+    {
+        flex: 1;
+        align-items: center;
+    }
+
+    .date
+    {
+        flex: 2;
+        //padding-left: 40px;
+        //padding-top: 7px;
+        font-size: 0.8rem;
+        align-self: center;
+        padding-left:50%;
+    }
+}
+
 
 @media screen and (max-width: 1024px)
 {

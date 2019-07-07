@@ -3,17 +3,14 @@ layout: default
 ---
 
     <body>
-
-
 		<main>
-            <div> 
-            <!--make css for myposts-->
-              <ul class="myposts">
+            <div class="posts"> 
+              <ul class="links">
+                    <h3 class="blog-title">LOG files found in dir /hackerearth: </h3>
                   {% for post in site.posts %}
                     {% if post.hackerearth %}
                       <li>
-                          <a href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
-                          <!--<span class='date-created'>{{ post.date | date_to_string }}</span>-->
+                          <a class="post-link" href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
                       </li>
                     {% endif %}
                   {% endfor %}
