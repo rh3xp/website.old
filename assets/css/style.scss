@@ -70,6 +70,13 @@ header
         font-family: $titleFont;
         align-self: center;
     }
+
+    a.url
+    {
+        display: flex;
+        flex: 1;
+        text-decoration: none;
+    }
 }
     
 /*
