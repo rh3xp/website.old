@@ -1,10 +1,11 @@
 ---
 ---
 
-@import "code";
+//@import "code";
 @import "monokai";
 
-$back: #272822;
+$back: black;
+//$back: #272822;
 $text: #fff;
 $mainFont: 'Poppins', sans-serif;
 $titleFont: 'Titillium Web', sans-serif;
@@ -211,6 +212,11 @@ CSS for post.html
     }
 }
 
+    .highlight
+    {
+        overflow-y: auto;
+        overflow-x: auto;
+    }
 
 @media screen and (max-width: 1024px)
 {
@@ -281,6 +287,7 @@ CSS for post.html
         margin: auto;
         width: 90%;
     }
+
       //.nav-links,
       //{
         //flex-direction: column;

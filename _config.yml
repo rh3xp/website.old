@@ -1,6 +1,6 @@
 name: My Jekyll Theme
-url: 
-baseurl: 
+url: #localhost:4000 
+baseurl: /hackerearth 
 
 
 name: Parth Krishna
@@ -8,7 +8,8 @@ email: thenerdsuperuser@gmail.com
 
 
 markdown: kramdown
-highlighter: rouge
+highlighter: redcarpet
+#highlighter: rouge
 
 # Markdown Processors
 kramdown:
@@ -18,4 +19,3 @@ kramdown:
   syntax_highlighter_opts:
     block:
       line_numbers: true
-      # Rouge Options › https://github.com/jneen/rouge#full-options
