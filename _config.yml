@@ -8,8 +8,7 @@ email: thenerdsuperuser@gmail.com
 
 
 markdown: kramdown
-highlighter: redcarpet
-#highlighter: rouge
+highlighter: rouge
 
 # Markdown Processors
 kramdown:
