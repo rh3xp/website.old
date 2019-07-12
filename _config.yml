@@ -15,3 +15,7 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+      # Rouge Options › https://github.com/jneen/rouge#full-options
