@@ -1,5 +1,10 @@
 ---
-title: Home
+title: Parth Krishna
+position: SDE
+organization: Invide Labs
+image: ./assets/images/profile.png
+twitter: https://twitter.com/vimoveremacs
+linkedin: https://linkedin.com/in/parthkrishna
 layout: home
 ---
 
