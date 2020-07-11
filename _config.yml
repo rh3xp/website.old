@@ -6,6 +6,22 @@ baseurl: #
 name: Parth Krishna
 email: thenerdsuperuser@gmail.com
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+
+      position: SDE
+      organization: Invide Labs
+      image: ./assets/images/profile.png
+      twitter: https://twitter.com/vimoveremacs
+      github: https://github.com/thenerdsuperuser
+      linkedin: https://linkedin.com/in/parthkrishna
+
+      layout: "home"
+      author: "Parth"
 
 markdown: kramdown
 highlighter: rouge
