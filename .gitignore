@@ -1,4 +1,9 @@
- 
+# jekyll metadata
+
+.jekyll-cache/
+.jekyll-metadata
+
+
 # Compiled site
 _site/
 
