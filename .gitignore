@@ -5,7 +5,7 @@
 
 
 # Compiled site
-_site/
+_site/*
 
 # Sass garbage
 .sass-cache/
