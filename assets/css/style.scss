@@ -27,6 +27,7 @@ $titleFont: 'Titillium Web', sans-serif;
 body
 {
 	//min-width:330px;
+	overflow-x:hidden;
 	font-family: $mainFont;
 }
 
