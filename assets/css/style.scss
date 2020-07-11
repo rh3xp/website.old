@@ -12,30 +12,30 @@ $titleFont: 'Titillium Web', sans-serif;
 
 
 /*
-*
-CSS for default.html
-*
-*/
+ *
+ CSS for default.html
+ *
+ */
 * {
 	margin: 0px;
-    padding: 0px;
-    background: $back;
-    color: $text;
+	padding: 0px;
+	background: $back;
+	color: $text;
 	box-sizing: border-box;
 }
 
 body
 {
-    //min-width:330px;
+	//min-width:330px;
 	font-family: $mainFont;
 }
 
 
 /*
-*
-CSS for logo, navbar.html
-*
-*/
+ *
+ CSS for logo, navbar.html
+ *
+ */
 
 
 header
@@ -52,33 +52,34 @@ header
 .logo-container
 {
 	flex: 1;
-    
-    .logo
-    { 
-        max-width: 100%;
-        max-height: 85%;
-	    width: 120px;
-        height: 80px;
-	    //margin: auto;
-    }
 
-    h4.title
-    {
-        display: flex;
-        flex: 1;
-        font-size: 24px;
-        font-family: $titleFont;
-        align-self: center;
-    }
+	.logo
+	{ 
+		max-width: 100%;
+		max-height: 85%;
+		width: 120px;
+		height: 80px;
+		//margin: auto;
+	}
 
-    a.url
-    {
-        display: flex;
-        flex: 1;
-        text-decoration: none;
-    }
+	h4.title
+	{
+		display: flex;
+		flex: 1;
+		font-size: 20px;
+		margin-left: 4px;
+		font-family: $titleFont;
+		align-self: center;
+	}
+
+	a.url
+	{
+		display: flex;
+		flex: 1;
+		text-decoration: none;
+	}
 }
-    
+
 /*
 
 //navbar is disabled for now
@@ -87,28 +88,28 @@ nav
 {
 	flex: 1;
 
-    .nav-links
-    {
-        justify-content: space-around;
-        display: flex;
-        list-style: none;
+	.nav-links
+	{
+		justify-content: space-around;
+		display: flex;
+		list-style: none;
 
-        .nav-link
-        {
-            //color: #5f5f79;
-            //font-size: 18px;
-            text-decoration: none;
-        }
-    }
+		.nav-link
+		{
+			//color: #5f5f79;
+			//font-size: 18px;
+			text-decoration: none;
+		}
+	}
 }
-*/
+ */
 
 
 /*
-*
-CSS for home.html
-*
-*/
+ *
+ CSS for home.html
+ *
+ */
 
 
 .presentation
@@ -119,188 +120,179 @@ CSS for home.html
 	min-height: 80vh;
 	align-items: center;
 
-    .introduction
-    {
-        flex: 1;
+	.introduction
+	{
+		flex: 2;
 
-        .intro-text
-        {
-            h1
-            {
-                font-size: 44px;
-                font-weight: 500;
-            }
+		.intro-text
+		{
+			h1
+			{
+				font-size: 30px;
+				font-weight: 500;
+			}
 
-            p
-            {
-                margin-top: 5px;
-                font-size: 22px;
-            }
+			p
+			{
+				margin-top: 5px;
+				font-size: 18px;
+			}
 
-            .social-media
-            {
-                //margin-top: 8px;
-                
-                .fab, .social, .fas, .far
-                {
-                    margin-right: 20px;
-                    flex: 1;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
+			.fab, .social, .fas, .far
+			{
+				margin-right: 20px;
+				flex: 1;
+				text-decoration: none;
+			}
+		}
+	}
 
-    .cover
-    {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        padding-bottom: 20px;
-        /*height: 60vh;*/
-    }
+	.cover
+	{
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		padding-bottom: 20px;
+		/*height: 60vh;*/
+	}
 }
 
 
 /*
-*
-CSS for post.html 
-*
-*/
+ *
+ CSS for post.html 
+ *
+ */
 
 
 .posts
 {
-    .post-link
-    {
-        text-decoration: none;
-        padding: 5px 0px 3px 20px; 
-    }
-    
-    .blog-title
-    {
-        padding: 35px 0px 20px 20px; 
-        
-    }
+	.post-link
+	{
+		text-decoration: none;
+		padding: 5px 0px 3px 20px; 
+	}
+
+	.blog-title
+	{
+		padding: 35px 0px 20px 20px; 
+
+	}
 }
 
 
 /*
-*
-CSS for post.html 
-*
-*/
+ *
+ CSS for post.html 
+ *
+ */
 
 
 .center
 {
-    margin: auto;
-    width: 70%;
+	margin: auto;
+	width: 70%;
 }
 
 .heading
 {
-    display: flex;
+	display: flex;
 
-    .page-title
-    {
-        flex: 1;
-        align-items: center;
-    }
+	.page-title
+	{
+		flex: 1;
+		align-items: center;
+	}
 
-    .date
-    {
-        flex: 2;
-        //padding-left: 40px;
-        //padding-top: 7px;
-        font-size: 0.8rem;
-        align-self: center;
-        padding-left:50%;
-    }
+	.date
+	{
+		flex: 2;
+		//padding-left: 40px;
+		//padding-top: 7px;
+		font-size: 0.8rem;
+		align-self: center;
+		padding-left:50%;
+	}
 }
 
-    .highlight
-    {
-        overflow-y: auto;
-        overflow-x: auto;
-    }
+.highlight
+{
+	overflow-y: auto;
+	overflow-x: auto;
+}
 
 @media screen and (max-width: 1024px)
 {
 	.presentation
-    {
+	{
 		flex-direction: column;
-	
-        .introduction
-        {
-            margin-top: 5vh;
-            text-align: center;
-            .intro-text
-            {
-                h1
-                {
-                    font-size: 25px;
-                }
 
-                p
-                {
-                    font-size: 15px;
-                }
+		.introduction
+		{
+			margin-top: 5vh;
+			text-align: center;
+			.intro-text
+			{
+				h1
+				{
+					font-size: 25px;
+				}
 
-                .social-media
-                {
-                    //margin-top: 8px;                    
-                    .fab, .fas, .far, .social
-                    {
-                        text-decoration: none;
-                        margin-right: 10px;
-                        margin-bottom: 10px;
-                        flex: 1;
-                    }
-                }
-            }
-        }
-    }
+				p
+				{
+					font-size: 15px;
+				}
 
-    .date
-    {
-        padding-left:15%;
-    }
-    
-    .center
-    {
-        margin: auto;
-        width: 90%;
-    }
+				.fab, .fas, .far, .social
+				{
+					text-decoration: none;
+					margin-right: 10px;
+					margin-bottom: 10px;
+					flex: 1;
+				}
+			}
+		}
+	}
+
+	.date
+	{
+		padding-left:15%;
+	}
+
+	.center
+	{
+		margin: auto;
+		width: 90%;
+	}
 }
 
 
 @media only screen and (max-width: 768px)
 {
-    .cover
-    {
-        height: 75%;
-        width:75%;
-        padding-bottom: 10px;
-    }
+	.cover
+	{
+		height: 75%;
+		width:75%;
+		padding-bottom: 10px;
+	}
 
-    .date
-    {
-        padding-left:15%;
-    }
+	.date
+	{
+		padding-left:15%;
+	}
 
-    .center
-    {
-        margin: auto;
-        width: 90%;
-    }
+	.center
+	{
+		margin: auto;
+		width: 90%;
+	}
 
-      //.nav-links,
-      //{
-        //flex-direction: column;
-        //margin-left: auto;
-        //text-align: right;
-        //display:none;
-      //}
+	//.nav-links,
+	//{
+	//flex-direction: column;
+	//margin-left: auto;
+	//text-align: right;
+	//display:none;
+	//}
 }
 
