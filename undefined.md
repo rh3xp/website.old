@@ -1,5 +1,5 @@
 ---
 title: Jekyll Plus CMS
-layout: insta
+layout: home
 ---
 Trying out cms.jekyllplus.com
