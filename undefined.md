@@ -1,7 +1,5 @@
 ---
-published: true
 title: Jekyll Plus CMS
-date: '2020-07-13'
-description: cms
+layout: insta
 ---
 Trying out cms.jekyllplus.com
