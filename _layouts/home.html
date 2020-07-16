@@ -5,40 +5,36 @@
 		<div class="introduction">
 			<div class="intro-text">
 				<h1>{{ page.title }}</h1>
-				<h4>{{ page.position }} at {{ page.organization }}</h4>
+				<h4>{{ site.position }} at {{ site.organization }}</h4>
 				<p id="small" align=”justify” style="font-size:12px;">
 				{{ content }}
 				</p>
 
 
-						{% if page.twitter %}
-								{% capture twitter %}
-										{{ page.twitter }}
-								{% endcapture %}
-						{% include twitter.html twitter_url=twitter %}
+						{% if site.twitter %}
+							{% include twitter.html %}
 						{% endif %}
 
 
-						{% if page.github %}
-								{% capture github %}
-										{{ page.github }}
-								{% endcapture %}
-						{% include github.html github_url=github %}
+						{% if site.github %}
+							{% include github.html %}
 						{% endif %}
 
 
-						{% if page.linkedin %}
-								{% capture linkedin %}
-										{{ page.linkedin }}
-								{% endcapture %}
-						{% include linkedin.html linkedin_url=linkedin %}
+						{% if site.linkedin %}
+							{% include linkedin.html %}
+						{% endif %}
+
+
+						{% if site.spotify %}
+							{% include spotify.html %}
 						{% endif %}
 
 
 			</div>
 		</div>
 		<div class="cover">
-			<img src={{ page.image }} alt="speaker" />
+			<img src={{ site.image }} alt="speaker" />
 		</div>
 	</section>
 </main>
