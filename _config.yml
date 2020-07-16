@@ -1,17 +1,20 @@
-name: minimalist
-url: thenerdsuperuser.xyz 
-baseurl: # 
-
-
 name: Parth Krishna
 email: thenerdsuperuser@gmail.com
+
+
+url: https://thenerdsuperuser.xyz
 
 position: SDE
 organization: Invide Labs
 image: ./assets/images/profile.png
-twitter: https://twitter.com/vimoveremacs
-github: https://github.com/thenerdsuperuser
-linkedin: https://linkedin.com/in/parthkrishna
+twitter: vimoveremacs
+github: thenerdsuperuser
+linkedin: parthkrishna
+spotify: normalguyincollege
+
+pages_list:       
+  Log: '/hackerearth'
+  Archive: '/insta'
 
 markdown: kramdown
 highlighter: rouge
