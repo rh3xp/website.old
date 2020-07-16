@@ -1,6 +1,5 @@
 ---
 title: Parth Krishna
-github: torvalds
 layout: home
 ---
 
