@@ -1,9 +1,19 @@
 <header>
-    <div class="logo-container">
-        <a class= "url"  href= "{{site.url}}" >
-            <img class = "logo" src={{ "assets/images/logo.png" | relative_url }} alt="logo" />
-            <h4 class="title">thenerdsuperuser</h4>
-        </a>
-    </div>
+	<div class="logo-container">
+		<a class= "url"  href= "{{site.url}}" >
+			<img class = "logo" src={{ "assets/images/logo.png" | relative_url }} alt="logo" />
+			<h4 class="title">thenerdsuperuser</h4>
+		</a>
+	</div>
+
+
+	<h3 class="masthead-title">
+		<a href="/" title="Home">{{ site.title }}</a>
+
+		{% for page in site.pages_list %}
+		<small style="padding-right: 15px;"><a style="text-decoration: none;" href="{{ page[1] }}">{{ page[0] }}</a></small>
+		{% endfor %}
+	</h3>
+
 </header>
 
