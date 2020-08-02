@@ -22,7 +22,10 @@ $titleFont: 'Titillium Web', sans-serif;
 	background: $back;
 	color: $text;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
+
 
 body
 {
