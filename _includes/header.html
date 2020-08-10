@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!--<meta name="viewport" content="width=device-width, initial-scale=1, min-width=500"/>-->
 
+        <!-- JQuery-->
+				<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+				<script src={{ "../assets/js/nav.js" | relative_url }} ></script>
+
         <!-- Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
@@ -13,13 +17,13 @@
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 				<script src='https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js'/>
 				</script>
+
         <!--- SASS-->
 				<link rel="stylesheet" href={{ "../assets/css/style.css" | relative_url }} >
-				<link rel="stylesheet" href={{ "../assets/css/navbar.css" | relative_url }} >
+				<link rel="stylesheet" href={{ "../assets/css/nav.css" | relative_url }} >
+
+        <!--- Favicon-->
         <link rel="icon" type="image/png" href={{ "../assets/images/favicon.png" | relative_url }} sizes="16x16">
-				
-				<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-				<script src={{ "../assets/js/nav.js" | relative_url }}></script>
 
 				<title>{{ page.title }}</title>
 	</head>
