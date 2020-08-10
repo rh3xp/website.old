@@ -5,15 +5,41 @@
 			<h4 class="title">thenerdsuperuser</h4>
 		</a>
 	</div>
-
-
-	<h3 class="masthead-title">
-		<a href="/" title="Home">{{ site.title }}</a>
-
-		{% for page in site.pages_list %}
-		<small style="padding-right: 15px;"><a style="text-decoration: none;" href="{{ page[1] }}">{{ page[0] }}</a></small>
-		{% endfor %}
-	</h3>
-
+	<section class="navigation">
+		<div class="nav-container">
+			<div class="brand">
+				<a href="/" title="Home">{{ site.title }}</a>
+			</div>
+			<nav>
+				<div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+				<ul class="nav-list">
+					{% for page in site.pages_list %}
+					<li>
+						<a href="{{ page[1] }}">{{ page[0] }}</a>
+					</li>
+					{% endfor %}
+					<!--
+					<li>
+						<a href="#!">Services</a>
+						<ul class="nav-dropdown">
+							<li>
+								<a href="#!">Web Design</a>
+							</li>
+							<li>
+								<a href="#!">Web Development</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#!">Pricing</a>
+					</li>
+					<li>
+						<a href="#!">Contact</a>
+					</li>
+					-->
+				</ul>
+			</nav>
+		</div>
+	</section>
 </header>
 
