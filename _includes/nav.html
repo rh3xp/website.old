@@ -1,0 +1,56 @@
+<style>
+
+.bg-dark {
+	    background-color: #272822!important;
+			
+}
+
+	/* bootstrap override */
+	a.btn-primary:hover {
+		text-decoration: none;
+	}
+
+	.navbar-nav li a:hover {
+		background-color: #696969;
+	}
+
+	.navbar-toggle .icon-bar {
+		display: block;
+		width: 22px;
+		height: 2px;
+		background-color: #272822;
+		border-radius: 1px;
+	}
+
+</style>
+
+
+<body>
+	<div class="bs-example">
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="{{ site.url }}">thenerdsuperuser</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+					<div class="navbar-nav ml-auto">
+							{% for page in site.pages_list %}
+								<a href="{{ page[1] }}" class="nav-item nav-link">{{ page[0] }}</a>
+							{% endfor %}
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+</body>
+
+
+
+<!--
+			<div class="logo-container">
+				<a class= "url"  href= "{{site.url}}" >
+					<img class = "logo" src={{ "assets/images/logo.png" | relative_url }} alt="logo" />
+				</a>
+			</div>
+-->
