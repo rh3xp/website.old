@@ -19,7 +19,8 @@ $titleFont: 'Titillium Web', sans-serif;
 * {
 	margin: 0px;
 	padding: 0px;
-	background: $back;
+	background-color: #272822!important;
+	//background: $back;
 	color: $text;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
