@@ -15,6 +15,7 @@ jobs:
         run: |
           echo "## Github Action script" > hash.md
           echo "My website runs on [ this commit ](https://github.com/$myREPO/commit/$mySHA)" >> hash.md
+	  sed -i "s/$(awk '/sha/ {print $2}' _config.yml)/$mySHA/" _config.yml
       - uses: pCYSl5EDgo/cat@master
         id: hello
         with:
