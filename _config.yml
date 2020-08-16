@@ -20,6 +20,12 @@ pages_list:
 markdown: kramdown
 highlighter: rouge
 
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+    collections_dir: coll
+
 # Markdown Processors
 kramdown:
   input: GFM
