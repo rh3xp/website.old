@@ -13,19 +13,11 @@ jobs:
             myREPO: ${{ github.repository }}
             mySHA: ${{ github.sha }}
         run: sed -i "s/$(awk '/sha/ {print $2}' _config.yml)/$mySHA/" _config.yml
-      - uses: pCYSl5EDgo/cat@master
-        id: hello
-        with:
-          path: _config.yml
-
-      - run: echo $TEXT
-        env:
-          TEXT: ${{ steps.hello.outputs.text  }}
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Updated _config.yml with full link to commit SHA." -a
+          git commit -m "Updated _config.yml with latest commit SHA." -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
