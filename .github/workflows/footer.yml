@@ -12,8 +12,7 @@ jobs:
         env:
             myREPO: ${{ github.repository }}
             mySHA: ${{ github.sha }}
-        run: |
-	  sed -i "s/$(awk '/sha/ {print $2}' _config.yml)/$mySHA/" _config.yml
+        run: sed -i "s/$(awk '/sha/ {print $2}' _config.yml)/$mySHA/" _config.yml
       - uses: pCYSl5EDgo/cat@master
         id: hello
         with:
