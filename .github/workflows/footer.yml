@@ -1,4 +1,4 @@
-name: Example
+name: Update Footer
 on: push
 jobs:
   build:
