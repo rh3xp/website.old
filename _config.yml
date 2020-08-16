@@ -8,7 +8,7 @@ position: SDE
 organization: Invide Labs
 image: ./assets/images/profile.webp
 twitter: vimoveremacs
-github: thenerdsuperuser
+ga66ac17: thenerdsuperuser
 linkedin: parthkrishna
 spotify: https://open.spotify.com/user/7u03qd6wd3c6r2jgxq7xsxmvf?si=NrdihBnWS9uSQCqtPGKNaw
 resume: https://drive.google.com/file/d/1-Mf4HVkdS8gdzVSRHry3ku2TAlFamRQK/view
@@ -35,4 +35,4 @@ kramdown:
     block:
       line_numbers: true
 
-sha: ithub
+sha: a66ac17

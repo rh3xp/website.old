@@ -17,7 +17,7 @@ jobs:
       - uses: pCYSl5EDgo/cat@master
         id: hello
         with:
-          path: hash.md
+          path: _config.yml
 
       - run: echo $TEXT
         env:
@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Updated hash.md with full link to commit SHA." -a
+          git commit -m "Updated _config.yml with full link to commit SHA." -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
