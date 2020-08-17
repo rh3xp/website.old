@@ -2,7 +2,6 @@
 layout: default
 ---
 
-    <body>
 	<main>
             <div class="posts"> 
               <ul class="links">
@@ -15,5 +14,4 @@ layout: default
                 </ul>
             </div>
         </main>
-	</body>
 
