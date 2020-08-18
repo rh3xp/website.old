@@ -4,6 +4,9 @@
 .jekyll-metadata
 
 
+# Ruby Gemfile
+Gemfile.lock
+
 # Compiled site
 _site/*
 
