@@ -35,4 +35,4 @@ kramdown:
     block:
       line_numbers: true
 
-sha: dfcf7f7 $mySHA | cut -c1-7) $mySHA | cut -c1-7
+sha: dfcf7f7
