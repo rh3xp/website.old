@@ -12,8 +12,7 @@ jobs:
         env:
             myREPO: ${{ github.repository }}
             mySHA: ${{ github.sha }}
-            SHA7: $(echo $mySHA | cut -c1-7)
-        run: sed -i "s/$(awk '/sha/ {print $2}' _config.yml)/$SHA7/" _config.yml
+        run: sed -i "s/$(awk '/sha/ {print $2}' _config.yml)/$(echo $mySHA | cut -c1-7)/" _config.yml
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
