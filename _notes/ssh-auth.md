@@ -8,7 +8,7 @@ layout: post
 WTF Github, I ended up writing this whole blog post again. ugh.
 
 It all started with an email github sent titled "Deprecation Notice".
-![Deprecation Notice](../assets/images/deprecation_mail.png "Scary, isn't it?")
+![Deprecation Notice](https://thenerdsuperuser.xyz/assets/images/deprecation_mail.png "Scary, isn't it?")
 
 Apparently, last month Github thought of [deprecating the password based authentication](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) for it's repositories. They switched to either of the two methods instead:   
 1. [Personal Authentication Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)   
