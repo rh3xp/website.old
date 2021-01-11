@@ -8,7 +8,7 @@ layout: post
 WTF Github, I ended up writing this whole blog post again. ugh.
 
 It all started with an email github sent titled "Deprecation Notice".
-![Deprecation Notice](./assets/images/deprecation_mail.png "Scary, isn't it?")
+![Deprecation Notice](../assets/images/deprecation_mail.png "Scary, isn't it?")
 
 Apparently, last month Github thought of [deprecating the password based authentication](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) for it's repositories. They switched to either of the two methods instead:   
 1. [Personal Authentication Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)   
@@ -17,7 +17,7 @@ Apparently, last month Github thought of [deprecating the password based authent
 Now this came as a shocker, even though the deadline is [August 13, 2021](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/#:~:text=Beginning,2021). Although they have published it on their blog, not many people have come to know about it, atleast none of my friends. So more the need to bring it out to notice.
 
 Now, why are we using an SSH/PAT based approach exactly? I mean, it was fine while we were using the usual password based authentication. Well, as we know, tokens have been used everywhere. Be it a django app, or a password reset form which I am pretty sure everyone reading this has filled, atleast twice.
-> and if not, then wow, you have either a very good memory, or you need to update your passwords!
+> > and if not, then wow, you have either a very good memory, or you need to update your passwords!
 
 Coming back to PAT. The reasons it is preffered are:   
 1. **Unique** – tokens are specific to GitHub and can be generated per use or per device.   
