@@ -8,7 +8,7 @@ layout: default
                     <h3 class="blog-title">Notes: </h3>
                   {% for post in site.notes reversed %}
                       <li>
-                          <a class="post-link" href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }} by {{ post.author }}</a>
+                          <a class="post-link" href="{{ post.url }}">{{ post.date | date_to_string }} - {{ post.title }}</a>
                       </li>
                   {% endfor %}
                 </ul>

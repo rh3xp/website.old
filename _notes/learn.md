@@ -1,5 +1,5 @@
 ---
-title: New org.
+title: New org
 author: thenerdsuperuser
 date: '2020-11-19'
 layout: post
